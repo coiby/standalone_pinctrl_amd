@@ -2,9 +2,11 @@
 
 1. You have should have kernel headers installed
 ```bash
+# For gentoo
+emerge --ask sys-kernel/linux-headers
 # For Arch-based distributions,
 sudo pacman -S linux-headers
-# for Debian-based distrubtions
+# For Debian-based distrubtions
 sudo apt install linux-headers-$(uname -r)
 ```
 2. Clone this repo and run make to build this module,
