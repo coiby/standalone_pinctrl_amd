@@ -3,7 +3,7 @@
 1. You have should have kernel headers installed
 ```bash
 # For Arch-based distributions,
-sudo pacman -S linux-headers-$(uname -r)
+sudo pacman -S linux-headers
 # for Debian-based distrubtions
 sudo apt install linux-headers-$(uname -r)
 ```
